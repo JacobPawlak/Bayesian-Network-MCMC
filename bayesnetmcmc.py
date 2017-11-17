@@ -53,6 +53,8 @@ def main():
 	seed()
 
 	#Conditional Probability calculations
+	#The tables should be read from probX_[Ya]
+	# as the probability of X given the markov blanket member(s) Y ([A,B,C,D,E]) with truth value a ([t,f])
 
 	#Table A
 	probA_BtCtDt = .8873239437
